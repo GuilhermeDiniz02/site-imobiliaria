@@ -1,0 +1,84 @@
+/* IMOVEIS */
+#casas {
+	font-family: Roboto, sans-serif;
+	font-size: 22px;
+	font-weight: 300;
+	text-align: center;
+}
+#h4 {
+	font-family: Roboto, sans-serif;
+	font-size: 16px;
+	color: #6f6f6f;
+	text-align: left;
+	margin-top: -20px;
+	margin-left: 100px;
+}
+
+#ap {
+	font-family: Roboto, sans-serif;
+	font-size: 22px;
+	font-weight: 300;
+	text-align: center;
+}
+
+#div{
+	background-color: rgb(255, 255, 255);
+	width: 85%;
+	height: 100%;
+	display: inline-flex;
+	align-items: center;
+	grid-gap: 200px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.descricao {
+	line-height: 1.5;
+	text-decoration: none;
+	color: black;
+	font-family: Roboto, sans-serif;
+}
+.descricao:hover,
+.descricao:focus {
+	background: rgba(255, 255, 255, .1);
+	transform: translateX(1px) scale(1.1);
+	transition: 1s;
+}
+.anuncio {
+	width: 100%;
+	height: 500px;
+	border-bottom: 2px solid #dfdfdf;
+	border-right: 2px solid #dfdfdf;
+	border-left: 1px solid #dfdfdf;
+	border-top: 1px solid #dfdfdf;
+	box-sizing: border-box;
+	border-radius: 8px;
+}
+.divimg {
+	background-color: rgb(104, 104, 104);
+	width: 100%;
+	height: 170px;
+	border-radius: 8px 8px 0 0;
+}
+.titulo {
+	font-family: Roboto, sans-serif;
+	text-align: center;
+	margin-top: 5px;
+	font-size: 12px;
+}
+.informacoes {
+	font-family: Roboto, sans-serif;
+	margin-top: 25px;
+	width: 90%;
+	text-align: left;
+	margin-left: 10px;
+	font-size: 14px;
+}
+.end {
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	width: 90%;
+	height: 25px;
+	text-align: left;
+	margin-left: 10px;
+	margin-top: 80px;
+}

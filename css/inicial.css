@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body {
+	margin: 0px;
+}
+.superior {
+	margin-top: -8px;
+	margin-left: -8px;
+	margin-right: -8px;
+	height: 80px;
+	width: 100%;
+	background: linear-gradient(#292929, rgb(0, 119, 255) ,#fefeff0c);
+}
+.logo {
+	width: 105px;
+	margin-left: 40px;
+	margin-top: 1px;
+}
+#nome {
+	margin-left: 150px;
+	margin-top: -70px;
+	font-family: Roboto, sans-serif;
+	font-weight: 200;
+}
+#nav {
+	float: right;
+    list-style: none;
+	justify-content: space-between;
+	font-family: Roboto, sans-serif;
+	width: 350px;
+	display: inline-flex;
+	margin-right: 70px;
+	margin-top: -35px;
+	font-size: 14px;
+	font-weight: 300;
+}
+#nav a{
+	text-decoration: none;
+	color: black;
+	font-weight: 300; 
+}
+#nav a:hover {
+	color: #0066ff;
+	zoom: 110%;
+	transition: 1s;
+	font-weight: 300;
+}
+.container {
+	width: 100%;
+	height: 290px;
+	background-color: rgb(255, 255, 255);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+.box {
+	text-align: center;
+	width: 900px;
+	height: 60px;
+	border-radius: 10px 10px 0 0;
+	background: rgba(156, 156, 156, 0);
+}
+.botao {
+	background-color: white;
+	border: none;
+	/*border-radius: 10px;*/
+	margin-top: 10px;
+	width: 150px;
+	height: 40px;
+	justify-content: space-between;
+	text-align: center;
+	border-bottom: 1px solid #dfdfdf;
+	/*border-bottom: 2px solid #1974eb;*/
+	/*color: #acacac;*/ /* cor da letra */
+	cursor: pointer;
+}
+#resultado {
+	background: rgba(226, 226, 226, 0);
+	width: 100%;
+	height: 210px;
+	border-bottom: 2px solid #dfdfdf;
+	border-right: 2px solid #dfdfdf;
+	border-left: 1px solid #dfdfdf;
+	border-top: 1px solid #dfdfdf;
+	box-sizing: border-box;
+
+}
+#aluga-compra {
+	/*background-color: rgb(109, 109, 109);*/
+	/*background: linear-gradient(#292929, rgb(0, 119, 255));*/
+	width: 800px;
+	height: 50px;
+	padding: 10px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 15px 15px 0 0;
+}
+#pesquise {
+	font-family: Roboto, sans-serif;
+	font-size: 20px;
+	/*color: #dadada;*/
+	color: black;
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#pesquisa {
+	/*background-color: rgba(94, 94, 94, 0.336);*/
+	/*background: linear-gradient( rgb(0, 119, 255) ,#292929b7);*/
+	width: 800px;
+	height: 100px;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: auto;
+	border-radius: 0 0 20px 20px;
+}  
+.btn-text-top {
+	background-color: #f5f6fa;
+	border: 1px solid rgba(255, 255, 255, .1);
+	padding: 15px 50px 15px 30px;
+	border-radius: 20px;
+	width: 90%!important;
+	height: 45px;
+	font-weight: 300;
+	color: #8795a2;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.btn-buscar-top {
+	width: 20px!important;
+	height: 22px;
+	background: url(http://www.devmedia.com.br/imagens/2013/buscar_grey.png) no-repeat;
+	cursor: pointer!important;
+	border: none;
+	transform: translateY(-50%);
+	padding: 0;
+	position: relative;
+	top: -22px;
+	left: 310px;
+}
+
+/* IMOVEIS */
+#casas {
+	font-family: Roboto, sans-serif;
+	font-size: 22px;
+	font-weight: 300;
+	text-align: center;
+}
+#h4 {
+	font-family: Roboto, sans-serif;
+	font-size: 16px;
+	color: #6f6f6f;
+	text-align: left;
+	margin-top: -20px;
+	margin-left: 100px;
+}
+/*.casas::after {
+	content: "";
+	position: absolute;
+	width: 200px;
+	height: 2px;
+	background-color: rgb(0, 119, 255);
+	align-items: center;
+	text-align: center;
+	bottom: -580px;
+	left: 620px;
+}*/
+#ap {
+	font-family: Roboto, sans-serif;
+	font-size: 22px;
+	font-weight: 300;
+	text-align: center;
+}
+/*.ap::after {
+	content: "";
+	position: relative;
+	width: 200px;
+	height: 2px;
+	background-color: rgb(0, 119, 255);
+	bottom: -894px;
+	left: 620px;
+}*/
+#div{
+	background-color: rgb(255, 255, 255);
+	width: 100%;
+	height: 100%;
+	display: inline-flex;
+	align-items: center;
+	grid-gap: 40px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.descricao {
+	line-height: 1.5;
+	text-decoration: none;
+	color: black;
+	font-family: Roboto, sans-serif;
+}
+.descricao:hover,
+.descricao:focus {
+	background: rgba(255, 255, 255, .1);
+	transform: translateX(1px) scale(1.1);
+	transition: 1s;
+}
+.anuncio {
+	width: 100%;
+	height: 450px;
+	border-bottom: 2px solid #dfdfdf;
+	border-right: 2px solid #dfdfdf;
+	border-left: 1px solid #dfdfdf;
+	border-top: 1px solid #dfdfdf;
+	box-sizing: border-box;
+	border-radius: 8px;
+}
+.divimg {
+	background-color: rgb(104, 104, 104);
+	width: 100%;
+	height: 170px;
+	border-radius: 8px 8px 0 0;
+}
+.titulo {
+	font-family: Roboto, sans-serif;
+	text-align: center;
+	margin-top: 5px;
+	font-size: 12px;
+}
+.informacoes {
+	font-family: Roboto, sans-serif;
+	margin-top: 25px;
+	width: 90%;
+	text-align: left;
+	margin-left: 10px;
+	font-size: 14px;
+}
+.end {
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	width: 90%;
+	height: 25px;
+	text-align: left;
+	margin-left: 10px;
+	margin-top: 30px;
+}
+
+
+/* RODAPE */
+#rodape {
+	background: linear-gradient( #fefeff0c, rgb(0, 119, 255), #292929);
+	text-align: center;
+	border: -0px;
+	margin-top: -10px;
+	width: 100%;
+	height: 45px;
+}
+#rodape2 {
+	margin-top: 20px;
+}

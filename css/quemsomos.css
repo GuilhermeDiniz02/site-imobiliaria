@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/*body {
+    background-image: url(../img/sampameo.jpg);
+    background-attachment: fixed;
+}*/
+.quemsomosdiv {
+    background-color: rgb(255, 255, 255);
+    width: 355px;
+    height: 340px;
+    margin-top: 90px;
+    margin-left: 100px;
+}
+
+.sobre {
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 200px;
+    float: right;
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: -310px;
+    margin-right: 70px;
+}
